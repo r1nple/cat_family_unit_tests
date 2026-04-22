@@ -1,5 +1,6 @@
-# qa_java
-QA Java Project
+# Финальный проект 6 спринта (Юнит-тестирование)
+
+### 🛠️ Стэк технологий:
 
 Java 11, JUnit 4, Maven, Mockito, Jacoco
 
