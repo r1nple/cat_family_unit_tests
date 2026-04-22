@@ -15,7 +15,7 @@ public class FelineTest {
     }
 
     @Test
-    public void testEatMeat() throws Exception {
+    public void eatMeatTest() throws Exception {
         //Метод для получения списка еды
         List<String> food = feline.eatMeat();
         //Проверка, что список совпадает с ОР

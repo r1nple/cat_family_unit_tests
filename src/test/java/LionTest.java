@@ -25,12 +25,6 @@ public class LionTest {
     }
 
     @Test
-    public void doesHaveManeTest() throws Exception {
-        //У самца есть грива
-        assertTrue(lion.doesHaveMane());
-    }
-
-    @Test
     public void getKittensTest() {
         //Мок объекта с методом getKittens(), возврат 2
         Mockito.when(feline.getKittens()).thenReturn(2);
@@ -48,7 +42,7 @@ public class LionTest {
     }
 
     @Test
-    public void shouldThrowExceptionForInvalidSex() {
+    public void shouldThrowExceptionForInvalidSexTest() {
         Feline feline = new Feline();
         //Проверка, что при передаче некорректного значения пола будет возвращать исключение
         Exception exception = assertThrows(Exception.class, () -> {

@@ -37,7 +37,7 @@ public class AlexTest {
     }
 
     @Test
-    public void doesHaveMane() {
+    public void doesHaveManeTest() {
         //Проверка, что у Алекса есть грива
         assertTrue(alex.doesHaveMane());
     }

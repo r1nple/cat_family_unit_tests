@@ -38,7 +38,7 @@ public class LionParameterizedTest {
     }
 
     @Test
-    public void DoesHaveMane() throws Exception {
+    public void doesHaveManeTest() throws Exception {
         //Экземпляр класса Lion c полом
         Lion lion = new Lion(sex, feline);
         //Проверка ФР с ОР
